@@ -1,0 +1,33 @@
+﻿@page "{id}"
+@model WebClient.Pages.Categories.EditModel
+@{
+    ViewData["Title"] = "Edit Category";
+}
+
+<h2>Edit Category</h2>
+
+<form method="post">
+    <input type="hidden" asp-for="Category.CategoryId" />
+
+    <div class="form-group">
+        <label asp-for="Category.CategoryName"></label>
+        <input asp-for="Category.CategoryName" class="form-control" />
+        <span asp-validation-for="Category.CategoryName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Category.CategoryDesciption"></label>
+        <textarea asp-for="Category.CategoryDesciption" class="form-control"></textarea>
+        <span asp-validation-for="Category.CategoryDesciption" class="text-danger"></span>
+    </div>
+
+    <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="IsActive" name="Category.IsActive" value="true"
+        @(Model.Category.IsActive == true ? "checked" : "") />
+        <input type="hidden" name="Category.IsActive" value="false" />
+        <label class="form-check-label" for="IsActive">Active</label>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-page="Index" class="btn btn-secondary">Cancel</a>
+</form>

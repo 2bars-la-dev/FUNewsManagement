@@ -1,0 +1,39 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Account List";
+}
+
+<h2>Accounts</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Email</th>
+            <th>Full Name</th>
+            <th>Role</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var acc in Model.Accounts)
+        {
+            <tr>
+                <td>@acc.AccountId</td>
+                <td>@acc.AccountEmail</td>
+                <td>@acc.AccountName</td>
+                <td>
+                    @{
+                        string roleName = acc.AccountRole switch
+                        {
+                            1 => "Staff",
+                            2 => "Lecturer",
+                            _ => "Unknown"
+                        };
+                    }
+                    @roleName
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

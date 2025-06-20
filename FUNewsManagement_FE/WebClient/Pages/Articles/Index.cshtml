@@ -1,0 +1,47 @@
+﻿@page
+@model WebClient.Pages.Articles.IndexModel
+@{
+    ViewData["Title"] = "Articles";
+}
+
+<h2>Articles</h2>
+
+<a asp-page="Create" class="btn btn-primary mb-3">Create Article</a>
+
+@if (!ModelState.IsValid)
+{
+    <div class="text-danger">@ModelState.Values.FirstOrDefault()?.Errors.FirstOrDefault()?.ErrorMessage</div>
+}
+else if (Model.Articles.Count == 0)
+{
+    <p>No articles found.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Created</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var article in Model.Articles)
+            {
+                <tr>
+                    <td>
+                        <a asp-page="Details" asp-route-id="@article.NewsArticleId">@article.NewsTitle</a>
+                    </td>
+                    <td>@article.CreatedDate?.ToString("dd/MM/yyyy")</td>
+                    <td>
+                        <a asp-page="Update" asp-route-id="@article.NewsArticleId" class="btn btn-warning btn-sm">Edit</a>
+                        <form method="post" asp-page-handler="Delete" asp-route-id="@article.NewsArticleId" style="display:inline" onsubmit="return confirm('Are you sure you want to delete this article?');">
+                            <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

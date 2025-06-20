@@ -1,0 +1,16 @@
+F:\TwoBars\eng\Programming\.net api\FUNewsManagement\FUNewsManagement_BE\BusinessLogicLayer\bin\Debug\net8.0\BusinessLogicLayer.deps.json
+F:\TwoBars\eng\Programming\.net api\FUNewsManagement\FUNewsManagement_BE\BusinessLogicLayer\bin\Debug\net8.0\BusinessLogicLayer.dll
+F:\TwoBars\eng\Programming\.net api\FUNewsManagement\FUNewsManagement_BE\BusinessLogicLayer\bin\Debug\net8.0\BusinessLogicLayer.pdb
+F:\TwoBars\eng\Programming\.net api\FUNewsManagement\FUNewsManagement_BE\BusinessLogicLayer\bin\Debug\net8.0\DataAccessLayer.dll
+F:\TwoBars\eng\Programming\.net api\FUNewsManagement\FUNewsManagement_BE\BusinessLogicLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+F:\TwoBars\eng\Programming\.net api\FUNewsManagement\FUNewsManagement_BE\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.csproj.AssemblyReference.cache
+F:\TwoBars\eng\Programming\.net api\FUNewsManagement\FUNewsManagement_BE\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.GeneratedMSBuildEditorConfig.editorconfig
+F:\TwoBars\eng\Programming\.net api\FUNewsManagement\FUNewsManagement_BE\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.AssemblyInfoInputs.cache
+F:\TwoBars\eng\Programming\.net api\FUNewsManagement\FUNewsManagement_BE\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.AssemblyInfo.cs
+F:\TwoBars\eng\Programming\.net api\FUNewsManagement\FUNewsManagement_BE\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+F:\TwoBars\eng\Programming\.net api\FUNewsManagement\FUNewsManagement_BE\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.sourcelink.json
+F:\TwoBars\eng\Programming\.net api\FUNewsManagement\FUNewsManagement_BE\BusinessLogicLayer\obj\Debug\net8.0\Business.450209FB.Up2Date
+F:\TwoBars\eng\Programming\.net api\FUNewsManagement\FUNewsManagement_BE\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.dll
+F:\TwoBars\eng\Programming\.net api\FUNewsManagement\FUNewsManagement_BE\BusinessLogicLayer\obj\Debug\net8.0\refint\BusinessLogicLayer.dll
+F:\TwoBars\eng\Programming\.net api\FUNewsManagement\FUNewsManagement_BE\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.pdb
+F:\TwoBars\eng\Programming\.net api\FUNewsManagement\FUNewsManagement_BE\BusinessLogicLayer\obj\Debug\net8.0\ref\BusinessLogicLayer.dll

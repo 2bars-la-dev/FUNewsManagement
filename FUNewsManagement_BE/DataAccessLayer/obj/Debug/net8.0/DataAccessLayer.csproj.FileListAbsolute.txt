@@ -1,0 +1,15 @@
+F:\TwoBars\eng\Programming\.net api\FUNewsManagement\FUNewsManagement_BE\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.deps.json
+F:\TwoBars\eng\Programming\.net api\FUNewsManagement\FUNewsManagement_BE\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+F:\TwoBars\eng\Programming\.net api\FUNewsManagement\FUNewsManagement_BE\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+F:\TwoBars\eng\Programming\.net api\FUNewsManagement\FUNewsManagement_BE\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+F:\TwoBars\eng\Programming\.net api\FUNewsManagement\FUNewsManagement_BE\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfoInputs.cache
+F:\TwoBars\eng\Programming\.net api\FUNewsManagement\FUNewsManagement_BE\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfo.cs
+F:\TwoBars\eng\Programming\.net api\FUNewsManagement\FUNewsManagement_BE\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+F:\TwoBars\eng\Programming\.net api\FUNewsManagement\FUNewsManagement_BE\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.sourcelink.json
+F:\TwoBars\eng\Programming\.net api\FUNewsManagement\FUNewsManagement_BE\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.dll
+F:\TwoBars\eng\Programming\.net api\FUNewsManagement\FUNewsManagement_BE\DataAccessLayer\obj\Debug\net8.0\refint\DataAccessLayer.dll
+F:\TwoBars\eng\Programming\.net api\FUNewsManagement\FUNewsManagement_BE\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
+F:\TwoBars\eng\Programming\.net api\FUNewsManagement\FUNewsManagement_BE\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll
+F:\TwoBars\eng\Programming\.net api\FUNewsManagement\FUNewsManagement_BE\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.runtimeconfig.json
+F:\TwoBars\eng\Programming\.net api\FUNewsManagement\FUNewsManagement_BE\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.AssemblyReference.cache
+F:\TwoBars\eng\Programming\.net api\FUNewsManagement\FUNewsManagement_BE\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.genruntimeconfig.cache

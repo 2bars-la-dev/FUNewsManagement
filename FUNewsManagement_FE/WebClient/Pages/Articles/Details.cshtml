@@ -1,0 +1,17 @@
+﻿@page "{id}"
+@model WebClient.Pages.Articles.DetailsModel
+@{
+    ViewData["Title"] = "Article Details";
+}
+
+<h2>@Model.Article.NewsTitle</h2>
+
+<p><strong>Created:</strong> @Model.Article.CreatedDate?.ToString("dd/MM/yyyy")</p>
+<p><strong>Category:</strong> @Model.Article.Category?.CategoryName</p>
+
+<hr />
+<article>
+    <pre style="white-space: pre-wrap;">@Model.Article.NewsContent</pre>
+</article>
+
+<a asp-page="Index" class="btn btn-secondary mt-3">Back to List</a>
