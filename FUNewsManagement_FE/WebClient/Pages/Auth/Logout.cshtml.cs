@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using WebClient.Helpers;
 
@@ -10,8 +11,9 @@ public class LogoutModel : PageModel
         _jwtService = jwtService;
     }
 
-    public void OnGet()
+    public IActionResult OnGet()  
     {
         Response.Cookies.Delete("access_token");
+        return RedirectToPage("/Auth/Login");
     }
 }

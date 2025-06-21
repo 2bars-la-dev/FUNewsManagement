@@ -21,17 +21,33 @@ namespace WebClient.Pages.Articles
 
         public List<NewsArticleModel> Articles { get; set; } = new();
 
+        [BindProperty(SupportsGet = true)]
+        public DateTime? StartDate { get; set; }
+
+        [BindProperty(SupportsGet = true)]
+        public DateTime? EndDate { get; set; }
+
         public async Task OnGetAsync()
         {
             var client = _httpFactory.CreateClient();
             var response = await client.GetAsync($"{_config["ApiBaseUrl"]}/NewsArticles");
 
-            if (response.IsSuccessStatusCode)
+            if (!response.IsSuccessStatusCode)
             {
-                var result = await response.Content.ReadFromJsonAsync<List<NewsArticleModel>>();
-                if (result != null)
-                    Articles = result;
+                ModelState.AddModelError(string.Empty, "Failed to load articles");
+                return;
             }
+
+            var result = await response.Content.ReadFromJsonAsync<List<NewsArticleModel>>();
+            if (result == null)
+                return;
+
+            if (StartDate.HasValue)
+                result = result.Where(a => a.CreatedDate >= StartDate.Value).ToList();
+            if (EndDate.HasValue)
+                result = result.Where(a => a.CreatedDate <= EndDate.Value).ToList();
+
+            Articles = result;
         }
 
         public async Task<IActionResult> OnPostDeleteAsync(string id)

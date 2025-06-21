@@ -3,6 +3,8 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
+Console.WriteLine($"[Environment] ASPNETCORE_ENVIRONMENT = {builder.Environment.EnvironmentName}");
+
 
 builder.Services.AddRazorPages();
 builder.Services.AddHttpContextAccessor();
@@ -30,7 +32,6 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             OnMessageReceived = context =>
             {
                 var token = context.Request.Cookies["access_token"];
-                Console.WriteLine("Cookie token: " + token);
                 if (!string.IsNullOrEmpty(token))
                 {
                     context.Token = token;
@@ -43,11 +44,16 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 
 var app = builder.Build();
 
-if (!app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment())
 {
-    app.UseExceptionHandler("/Error");
+    app.UseDeveloperExceptionPage(); 
+}
+else
+{
+    app.UseExceptionHandler("/Error"); 
     app.UseHsts();
 }
+
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();

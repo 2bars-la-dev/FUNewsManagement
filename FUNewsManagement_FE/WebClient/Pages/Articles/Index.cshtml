@@ -1,12 +1,35 @@
 ﻿@page
 @model WebClient.Pages.Articles.IndexModel
+@inject IHttpContextAccessor HttpContextAccessor
 @{
     ViewData["Title"] = "Articles";
+
+    var user = HttpContextAccessor.HttpContext?.User;
+    bool isStaff = user?.IsInRole("Staff") ?? false;
+    bool isAdmin = user?.IsInRole("Admin") ?? false;
+    bool isNotStaff = !isStaff; // Disable nếu KHÔNG PHẢI Staff
 }
 
 <h2>Articles</h2>
 
-<a asp-page="Create" class="btn btn-primary mb-3">Create Article</a>
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <a asp-page="Create"
+       class="btn btn-primary @(isNotStaff ? "disabled" : "")"
+       tabindex="@(isNotStaff ? "-1" : "0")"
+       aria-disabled="@(isNotStaff.ToString().ToLower())"
+       title="@(isNotStaff ? "Only staff can create articles." : "")">
+        Create Article
+    </a>
+
+    @if (isAdmin)
+    {
+        <form method="get" class="d-flex gap-2">
+            <input type="date" name="startDate" class="form-control" value="@Model.StartDate?.ToString("yyyy-MM-dd")" />
+            <input type="date" name="endDate" class="form-control" value="@Model.EndDate?.ToString("yyyy-MM-dd")" />
+            <button type="submit" class="btn btn-secondary">Filter</button>
+        </form>
+    }
+</div>
 
 @if (!ModelState.IsValid)
 {
@@ -35,9 +58,26 @@ else
                     </td>
                     <td>@article.CreatedDate?.ToString("dd/MM/yyyy")</td>
                     <td>
-                        <a asp-page="Update" asp-route-id="@article.NewsArticleId" class="btn btn-warning btn-sm">Edit</a>
-                        <form method="post" asp-page-handler="Delete" asp-route-id="@article.NewsArticleId" style="display:inline" onsubmit="return confirm('Are you sure you want to delete this article?');">
-                            <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                        <a asp-page="Update"
+                           asp-route-id="@article.NewsArticleId"
+                           class="btn btn-warning btn-sm @(isNotStaff ? "disabled" : "")"
+                           tabindex="@(isNotStaff ? "-1" : "0")"
+                           aria-disabled="@(isNotStaff.ToString().ToLower())"
+                           title="@(isNotStaff ? "Only staff can edit articles." : "")">
+                            Edit
+                        </a>
+
+                        <form method="post"
+                              asp-page-handler="Delete"
+                              asp-route-id="@article.NewsArticleId"
+                              style="display:inline"
+                              onsubmit="return confirm('Are you sure you want to delete this article?');">
+                            <button type="submit"
+                                    class="btn btn-danger btn-sm"
+                            @(isNotStaff ? "disabled" : "")
+                                    title="@(isNotStaff ? "Only staff can delete articles." : "")">
+                                Delete
+                            </button>
                         </form>
                     </td>
                 </tr>

@@ -14,7 +14,8 @@ public class ArticleService
 
     public async Task<IEnumerable<NewsArticle>> GetAllAsync()
     {
-        return await _articleRepo.GetAllAsync();
+        var all = await _articleRepo.GetAllAsync();
+        return all.Where(a => a.NewsStatus == true);
     }
 
     public async Task<NewsArticle?> GetByIdAsync(string articleId)

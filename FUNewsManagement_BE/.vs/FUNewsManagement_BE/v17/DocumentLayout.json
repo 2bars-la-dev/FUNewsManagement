@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "F:\\TwoBars\\eng\\Programming\\.net api\\FUNewsManagement\\FUNewsManagement_BE\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4DAB467F-8DC6-4923-9C0A-48708638E611}|NewsAPI\\NewsAPI.csproj|f:\\twobars\\eng\\programming\\.net api\\funewsmanagement\\funewsmanagement_be\\newsapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DAB467F-8DC6-4923-9C0A-48708638E611}|NewsAPI\\NewsAPI.csproj|solutionrelative:newsapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DAB467F-8DC6-4923-9C0A-48708638E611}|NewsAPI\\NewsAPI.csproj|f:\\twobars\\eng\\programming\\.net api\\funewsmanagement\\funewsmanagement_be\\newsapi\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DAB467F-8DC6-4923-9C0A-48708638E611}|NewsAPI\\NewsAPI.csproj|solutionrelative:newsapi\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DAB467F-8DC6-4923-9C0A-48708638E611}|NewsAPI\\NewsAPI.csproj|f:\\twobars\\eng\\programming\\.net api\\funewsmanagement\\funewsmanagement_be\\newsapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DAB467F-8DC6-4923-9C0A-48708638E611}|NewsAPI\\NewsAPI.csproj|solutionrelative:newsapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4DAB467F-8DC6-4923-9C0A-48708638E611}|NewsAPI\\NewsAPI.csproj|f:\\twobars\\eng\\programming\\.net api\\funewsmanagement\\funewsmanagement_be\\newsapi\\controllers\\newsarticlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4DAB467F-8DC6-4923-9C0A-48708638E611}|NewsAPI\\NewsAPI.csproj|solutionrelative:newsapi\\controllers\\newsarticlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F99761F-9452-4E37-8CFB-2A9119227E0E}|BusinessLogicLayer\\BusinessLogicLayer.csproj|f:\\twobars\\eng\\programming\\.net api\\funewsmanagement\\funewsmanagement_be\\businesslogiclayer\\dtos\\createnewsarticledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F99761F-9452-4E37-8CFB-2A9119227E0E}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\dtos\\createnewsarticledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{086498F3-E959-4F3A-8C44-F3A4F0EE3B2F}|DataAccessLayer\\DataAccessLayer.csproj|f:\\twobars\\eng\\programming\\.net api\\funewsmanagement\\funewsmanagement_be\\dataaccesslayer\\models\\newsarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{086498F3-E959-4F3A-8C44-F3A4F0EE3B2F}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\models\\newsarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3F99761F-9452-4E37-8CFB-2A9119227E0E}|BusinessLogicLayer\\BusinessLogicLayer.csproj|f:\\twobars\\eng\\programming\\.net api\\funewsmanagement\\funewsmanagement_be\\businesslogiclayer\\articleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,12 +27,16 @@
       "RelativeMoniker": "D:0:0:{086498F3-E959-4F3A-8C44-F3A4F0EE3B2F}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\funewsmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F99761F-9452-4E37-8CFB-2A9119227E0E}|BusinessLogicLayer\\BusinessLogicLayer.csproj|f:\\twobars\\eng\\programming\\.net api\\funewsmanagement\\funewsmanagement_be\\businesslogiclayer\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F99761F-9452-4E37-8CFB-2A9119227E0E}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{086498F3-E959-4F3A-8C44-F3A4F0EE3B2F}|DataAccessLayer\\DataAccessLayer.csproj|f:\\twobars\\eng\\programming\\.net api\\funewsmanagement\\funewsmanagement_be\\dataaccesslayer\\repositories\\articlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{086498F3-E959-4F3A-8C44-F3A4F0EE3B2F}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\articlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F99761F-9452-4E37-8CFB-2A9119227E0E}|BusinessLogicLayer\\BusinessLogicLayer.csproj|f:\\twobars\\eng\\programming\\.net api\\funewsmanagement\\funewsmanagement_be\\businesslogiclayer\\dtos\\createnewsarticledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F99761F-9452-4E37-8CFB-2A9119227E0E}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\dtos\\createnewsarticledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{086498F3-E959-4F3A-8C44-F3A4F0EE3B2F}|DataAccessLayer\\DataAccessLayer.csproj|f:\\twobars\\eng\\programming\\.net api\\funewsmanagement\\funewsmanagement_be\\dataaccesslayer\\models\\newsarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{086498F3-E959-4F3A-8C44-F3A4F0EE3B2F}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\models\\newsarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,13 +78,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "F:\\TwoBars\\eng\\Programming\\.net api\\FUNewsManagement\\FUNewsManagement_BE\\NewsAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "NewsAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "F:\\TwoBars\\eng\\Programming\\.net api\\FUNewsManagement\\FUNewsManagement_BE\\NewsAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "NewsAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAiwDYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T04:29:20.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "F:\\TwoBars\\eng\\Programming\\.net api\\FUNewsManagement\\FUNewsManagement_BE\\NewsAPI\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "NewsAPI\\Controllers\\CategoriesController.cs",
+              "ToolTip": "F:\\TwoBars\\eng\\Programming\\.net api\\FUNewsManagement\\FUNewsManagement_BE\\NewsAPI\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "NewsAPI\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T03:45:50.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountsController.cs",
+              "DocumentMoniker": "F:\\TwoBars\\eng\\Programming\\.net api\\FUNewsManagement\\FUNewsManagement_BE\\NewsAPI\\Controllers\\AccountsController.cs",
+              "RelativeDocumentMoniker": "NewsAPI\\Controllers\\AccountsController.cs",
+              "ToolTip": "F:\\TwoBars\\eng\\Programming\\.net api\\FUNewsManagement\\FUNewsManagement_BE\\NewsAPI\\Controllers\\AccountsController.cs",
+              "RelativeToolTip": "NewsAPI\\Controllers\\AccountsController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T03:45:29.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ArticleService.cs",
               "DocumentMoniker": "F:\\TwoBars\\eng\\Programming\\.net api\\FUNewsManagement\\FUNewsManagement_BE\\BusinessLogicLayer\\ArticleService.cs",
               "RelativeDocumentMoniker": "BusinessLogicLayer\\ArticleService.cs",
               "ToolTip": "F:\\TwoBars\\eng\\Programming\\.net api\\FUNewsManagement\\FUNewsManagement_BE\\BusinessLogicLayer\\ArticleService.cs",
               "RelativeToolTip": "BusinessLogicLayer\\ArticleService.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAuwBEAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-20T00:32:31.023Z",
               "EditorCaption": ""
@@ -84,19 +131,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "AccountService.cs",
-              "DocumentMoniker": "F:\\TwoBars\\eng\\Programming\\.net api\\FUNewsManagement\\FUNewsManagement_BE\\BusinessLogicLayer\\AccountService.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer\\AccountService.cs",
-              "ToolTip": "F:\\TwoBars\\eng\\Programming\\.net api\\FUNewsManagement\\FUNewsManagement_BE\\BusinessLogicLayer\\AccountService.cs",
-              "RelativeToolTip": "BusinessLogicLayer\\AccountService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T00:32:30.074Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "FunewsManagementContext.cs",
               "DocumentMoniker": "F:\\TwoBars\\eng\\Programming\\.net api\\FUNewsManagement\\FUNewsManagement_BE\\DataAccessLayer\\FunewsManagementContext.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\FunewsManagementContext.cs",
@@ -115,14 +149,14 @@
               "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\ArticleRepository.cs",
               "ToolTip": "F:\\TwoBars\\eng\\Programming\\.net api\\FUNewsManagement\\FUNewsManagement_BE\\DataAccessLayer\\Repositories\\ArticleRepository.cs",
               "RelativeToolTip": "DataAccessLayer\\Repositories\\ArticleRepository.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAYwCkAAAANAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAmwD0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-20T00:23:41.849Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "CreateNewsArticleDto.cs",
               "DocumentMoniker": "F:\\TwoBars\\eng\\Programming\\.net api\\FUNewsManagement\\FUNewsManagement_BE\\BusinessLogicLayer\\DTOs\\CreateNewsArticleDto.cs",
               "RelativeDocumentMoniker": "BusinessLogicLayer\\DTOs\\CreateNewsArticleDto.cs",
@@ -135,26 +169,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "NewsArticle.cs",
               "DocumentMoniker": "F:\\TwoBars\\eng\\Programming\\.net api\\FUNewsManagement\\FUNewsManagement_BE\\DataAccessLayer\\Models\\NewsArticle.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\Models\\NewsArticle.cs",
               "ToolTip": "F:\\TwoBars\\eng\\Programming\\.net api\\FUNewsManagement\\FUNewsManagement_BE\\DataAccessLayer\\Models\\NewsArticle.cs",
               "RelativeToolTip": "DataAccessLayer\\Models\\NewsArticle.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAkwAgAAAAtAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAA5wAgAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-20T00:04:52.038Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "NewsArticlesController.cs",
               "DocumentMoniker": "F:\\TwoBars\\eng\\Programming\\.net api\\FUNewsManagement\\FUNewsManagement_BE\\NewsAPI\\Controllers\\NewsArticlesController.cs",
               "RelativeDocumentMoniker": "NewsAPI\\Controllers\\NewsArticlesController.cs",
               "ToolTip": "F:\\TwoBars\\eng\\Programming\\.net api\\FUNewsManagement\\FUNewsManagement_BE\\NewsAPI\\Controllers\\NewsArticlesController.cs",
               "RelativeToolTip": "NewsAPI\\Controllers\\NewsArticlesController.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAuwD0AAAAIAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-19T23:42:06.282Z",
               "EditorCaption": ""

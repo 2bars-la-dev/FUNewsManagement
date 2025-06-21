@@ -27,6 +27,7 @@ namespace NewsAPI.Controllers
         }
 
         [HttpGet("{id}")]
+        [AllowAnonymous]
         public async Task<IActionResult> GetById(short id)
         {
             var acc = await _accountService.GetByIdAsync(id);
